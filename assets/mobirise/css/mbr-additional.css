@@ -30,11 +30,11 @@ body {
 }
 .display-5 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
 }
 .display-7 {
   font-family: 'Inter', sans-serif;
@@ -71,9 +71,9 @@ body {
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.76rem;
+    font-size: calc( 1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.96rem;
@@ -1136,6 +1136,37 @@ a {
 .cid-sVOdonAum1 .mbr-section-subtitle {
   text-align: center;
 }
+.cid-sWe0KpPGnz {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-sWe0KpPGnz .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-sWe0KpPGnz .row {
+    flex-direction: column-reverse;
+  }
+  .cid-sWe0KpPGnz .image-wrapper {
+    margin-bottom: 2rem;
+  }
+  .cid-sWe0KpPGnz .card-wrapper {
+    padding: 0 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sWe0KpPGnz .card-wrapper {
+    padding-right: 2rem;
+  }
+}
+.cid-sWe0KpPGnz .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sWe0KpPGnz .card-title {
+  text-align: center;
+}
 .cid-sVO7taE5Ej {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1144,9 +1175,11 @@ a {
 .cid-sVO7taE5Ej .oldcost {
   text-decoration: line-through;
   color: #353535;
+  text-align: center;
 }
 .cid-sVO7taE5Ej .currentcost {
   color: #232323;
+  text-align: right;
 }
 .cid-sVO7taE5Ej .card-wrapper {
   border-radius: 4px;
@@ -1174,6 +1207,11 @@ a {
 }
 .cid-sVO7taE5Ej H5 {
   text-align: center;
+}
+.cid-sVO7taE5Ej .mbr-text,
+.cid-sVO7taE5Ej .cost,
+.cid-sVO7taE5Ej .mbr-section-btn {
+  text-align: left;
 }
 .cid-sVO7uNRsmo {
   padding-top: 5rem;
